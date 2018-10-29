@@ -1,7 +1,7 @@
 server {
    listen 80 default_server;
   add_header 'Access-Control-Allow-Origin' '*';
-    server_name localhost; ## mention ip address or domain name                      
+    server_name mall.mekhai.com; ## mention ip address or domain name                      
 #    return 302 https://$server_name$request_uri;
  
    location / {
