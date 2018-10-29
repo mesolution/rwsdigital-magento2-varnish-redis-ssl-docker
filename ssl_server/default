@@ -12,7 +12,7 @@ server {
 server {
  listen 443;
   add_header 'Access-Control-Allow-Origin' '*';
-  server_name localhost; ## mention ip address or domain name
+  server_name mall.mekhai.com; ## mention ip address or domain name
         ssl on;
         ssl_certificate /etc/nginx/cert.crt;
         ssl_certificate_key /etc/nginx/cert.key;
